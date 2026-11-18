@@ -1,0 +1,14 @@
+.scroll.data-v-6d719173 {
+  padding-bottom: 24px;
+}
+.notice.data-v-6d719173 {
+  background: #f6efe6;
+  border-color: #e7ded4;
+}
+.pop.data-v-6d719173 {
+  padding: 16px 18px 26px;
+}
+.pop-title.data-v-6d719173 {
+  font-size: 17px;
+  font-weight: 600;
+}

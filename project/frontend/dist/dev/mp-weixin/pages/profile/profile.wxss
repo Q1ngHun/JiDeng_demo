@@ -1,0 +1,33 @@
+.scroll.data-v-04d37cba {
+  padding-bottom: 24px;
+}
+.grid-btn.data-v-04d37cba {
+  height: 56px;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 11px;
+  flex: 1;
+  min-height: 56px;
+  padding: 0;
+}
+.notice.data-v-04d37cba {
+  background: #fbf7f2;
+  border-color: #e7ded4;
+}
+.edit-pop.data-v-04d37cba {
+  max-height: 76vh;
+}
+.pop.data-v-04d37cba {
+  padding: 16px 18px 26px;
+}
+.pop-title.data-v-04d37cba {
+  font-size: 17px;
+  font-weight: 600;
+}
+.input.data-v-04d37cba {
+  font-size: 15px;
+  min-height: 24px;
+}
+.data-v-04d37cba .ph {
+  color: #a99d91;
+}

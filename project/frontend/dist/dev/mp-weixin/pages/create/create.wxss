@@ -1,0 +1,36 @@
+.scroll.data-v-591de917 {
+  padding-bottom: 24px;
+}
+.input.data-v-591de917 {
+  font-size: 16px;
+  font-weight: 500;
+  min-height: 24px;
+  color: #171210;
+}
+.caret.data-v-591de917 {
+  margin-left: auto;
+  color: #a99d91;
+  font-size: 12px;
+}
+.assignee-hint.data-v-591de917 {
+  margin-left: auto;
+}
+.member-chip.data-v-591de917 {
+  padding-left: 6px;
+}
+.notice.data-v-591de917 {
+  background: #f6efe6;
+  border-color: #e7ded4;
+}
+.pop.data-v-591de917 {
+  padding: 16px 18px 26px;
+}
+.pop-title.data-v-591de917 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.data-v-591de917 .ph {
+  color: #a99d91;
+  font-weight: 400;
+}

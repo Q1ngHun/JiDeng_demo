@@ -1,0 +1,26 @@
+{
+  "bsonType": "object",
+  "required": ["family_id", "action"],
+  "permission": {
+    "read": "doc.family_id in auth.family_ids",
+    "create": "doc.family_id in auth.family_ids",
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": { "description": "事件 ID" },
+    "family_id": { "bsonType": "string", "title": "家庭组", "foreignKey": "families._id" },
+    "task_id": { "bsonType": "string", "title": "任务（可为空，如导出事件）", "foreignKey": "tasks._id" },
+    "actor_id": { "bsonType": "string", "title": "操作者", "foreignKey": "users._id" },
+    "actor_name": { "bsonType": "string", "title": "操作者姓名快照" },
+    "action": {
+      "bsonType": "string",
+      "title": "动作",
+      "enum": ["create", "claim", "start", "complete", "confirm", "remind", "reassign", "cancel", "skip", "question", "timeout", "attachment", "export"]
+    },
+    "from_status": { "bsonType": "string", "title": "变更前状态" },
+    "to_status": { "bsonType": "string", "title": "变更后状态" },
+    "note": { "bsonType": "string", "title": "备注", "maxLength": 255 },
+    "created_at": { "bsonType": "timestamp", "forceDefaultValue": { "$env": "now" } }
+  }
+}

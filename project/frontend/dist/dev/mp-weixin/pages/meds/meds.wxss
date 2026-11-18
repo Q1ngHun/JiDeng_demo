@@ -1,0 +1,27 @@
+.scroll.data-v-3a9d5555 {
+  padding-bottom: 24px;
+}
+.notice-card.data-v-3a9d5555 {
+  background: #fffdf7;
+  border-color: #f0e3c8;
+}
+.stopped.data-v-3a9d5555 {
+  opacity: 0.85;
+}
+.pop.data-v-3a9d5555 {
+  padding: 16px 18px 26px;
+}
+.pop-scroll.data-v-3a9d5555 {
+  max-height: 74vh;
+}
+.pop-title.data-v-3a9d5555 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.input.data-v-3a9d5555 {
+  font-size: 15px;
+  min-height: 24px;
+}
+.data-v-3a9d5555 .ph {
+  color: #a99d91;
+}

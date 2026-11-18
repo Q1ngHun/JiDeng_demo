@@ -1,0 +1,1 @@
+<view class="{{['st', b]}}"><view class="dot"/><text>{{a}}</text></view>

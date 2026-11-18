@@ -1,0 +1,110 @@
+.jd-icon[data-v-b531e468] {
+  display: block;
+  flex: 0 0 auto;
+}
+
+
+.jd-nav[data-v-1630e7dd] {
+  flex: 0 0 auto;
+  background: #ffffff;
+  position: relative;
+  z-index: 30;
+}
+.jd-nav.tint[data-v-1630e7dd] {
+  background: #fbf7f2;
+}
+.status-pad[data-v-1630e7dd] {
+  height: env(safe-area-inset-top);
+}
+.bar[data-v-1630e7dd] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 48px;
+  padding: 0 14px;
+  padding-top: 6px;
+}
+.nav-back[data-v-1630e7dd] {
+  width: 32px;
+  height: 32px;
+  margin-left: -6px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-back-hover[data-v-1630e7dd] {
+  background: #f6efe6;
+}
+.ttl[data-v-1630e7dd] {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #171210;
+}
+.act[data-v-1630e7dd] {
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #c2410c;
+  padding: 6px 4px;
+}
+
+
+.scroll[data-v-6afb8583] {
+  padding-bottom: 24px;
+}
+.price-card[data-v-6afb8583] {
+  border-radius: 18px;
+  padding: 16px;
+}
+.muted[data-v-6afb8583] {
+  color: rgba(255, 255, 255, 0.72);
+}
+.baseline[data-v-6afb8583] {
+  align-items: baseline;
+}
+.tag.light[data-v-6afb8583] {
+  background: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+}
+.active-card[data-v-6afb8583] {
+  background: #f2fbf6;
+  border-color: #cde9db;
+}
+.table[data-v-6afb8583] {
+  background: #ffffff;
+  border: 1px solid #e7ded4;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.tr[data-v-6afb8583] {
+  display: flex;
+  border-bottom: 1px solid #f2ebe2;
+}
+.tr[data-v-6afb8583]:last-child {
+  border-bottom: 0;
+}
+.tr.head[data-v-6afb8583] {
+  background: #f6f1ea;
+}
+.td[data-v-6afb8583] {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #574c42;
+}
+.td[data-v-6afb8583]:first-child {
+  flex: 1.4;
+  font-weight: 600;
+  color: #171210;
+}
+.tr.head .td[data-v-6afb8583] {
+  font-size: 11px;
+  color: #6e665c;
+  font-weight: 700;
+}
+.policy[data-v-6afb8583] {
+  background: #fbf7f2;
+  border-color: #e7ded4;
+}

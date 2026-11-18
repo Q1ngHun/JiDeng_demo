@@ -1,0 +1,24 @@
+.scroll.data-v-7895ef6e {
+  padding-bottom: 24px;
+}
+.mini-thumb.data-v-7895ef6e {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+.pop.data-v-7895ef6e {
+  padding: 16px 18px 26px;
+}
+.pop-title.data-v-7895ef6e {
+  font-size: 17px;
+  font-weight: 600;
+}
+.textarea.data-v-7895ef6e {
+  width: 100%;
+  height: 72px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.data-v-7895ef6e .ph {
+  color: #a99d91;
+}

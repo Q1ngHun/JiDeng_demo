@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "backgroundColor": "#FBF7F2",
+  "usingComponents": {
+    "u-loading-icon": "../../node-modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "jd-nav": "../../components/JdNav",
+    "jd-tabbar": "../../components/JdTabbar",
+    "jd-avatar": "../../components/JdAvatar",
+    "jd-status": "../../components/JdStatus",
+    "jd-ring": "../../components/JdRing",
+    "jd-icon": "../../components/JdIcon"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="jd-tabbar data-v-44731023"><view wx:for="{{a}}" wx:for-item="tab" wx:key="e" class="{{['tab', 'data-v-44731023', tab.f && 'on']}}" bindtap="{{tab.g}}"><jd-icon wx:if="{{tab.b}}" class="data-v-44731023" u-i="{{tab.a}}" bind:__l="__l" u-p="{{tab.b}}"/><text class="label data-v-44731023">{{tab.c}}</text><view wx:if="{{tab.d}}" class="dot data-v-44731023"/></view></view>

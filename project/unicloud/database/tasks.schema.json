@@ -1,0 +1,50 @@
+{
+  "bsonType": "object",
+  "required": ["family_id", "title", "scheduled_at", "status"],
+  "permission": {
+    "read": "doc.family_id in auth.family_ids",
+    "create": "doc.family_id in auth.family_ids",
+    "update": "doc.family_id in auth.family_ids",
+    "delete": false
+  },
+  "properties": {
+    "_id": { "description": "任务 ID" },
+    "family_id": { "bsonType": "string", "title": "家庭组", "foreignKey": "families._id" },
+    "elder_id": { "bsonType": "string", "title": "长辈档案", "foreignKey": "elders._id" },
+    "title": { "bsonType": "string", "title": "做什么", "maxLength": 120 },
+    "category": {
+      "bsonType": "string",
+      "title": "分类",
+      "enum": ["复查", "取药", "测量", "缴费", "用药", "其他"],
+      "defaultValue": "其他"
+    },
+    "description": { "bsonType": "string", "title": "备注" },
+    "creator_id": { "bsonType": "string", "title": "创建人", "foreignKey": "users._id" },
+    "assignee_id": { "bsonType": "string", "title": "责任人（空=待认领）", "foreignKey": "users._id" },
+    "scheduled_at": { "bsonType": "timestamp", "title": "计划时间" },
+    "due_at": { "bsonType": "timestamp", "title": "截止时间" },
+    "is_urgent": { "bsonType": "bool", "title": "紧急（可穿透静默）", "defaultValue": false },
+    "repeat_rule": {
+      "bsonType": "string",
+      "title": "重复规则",
+      "enum": ["none", "daily", "weekly", "monthly"],
+      "defaultValue": "none"
+    },
+    "need_confirm": { "bsonType": "bool", "title": "完成后需主理确认", "defaultValue": true },
+    "status": {
+      "bsonType": "string",
+      "title": "状态",
+      "enum": ["pending_claim", "claimed", "in_progress", "pending_confirm", "done", "overdue", "question", "cancelled", "skipped"],
+      "defaultValue": "pending_claim"
+    },
+    "source": { "bsonType": "string", "title": "来源", "enum": ["manual", "medication", "followup", "schedule"] },
+    "location": { "bsonType": "string", "title": "地点" },
+    "remind_label": { "bsonType": "string", "title": "提醒时机" },
+    "claimed_at": { "bsonType": "timestamp", "title": "认领时间" },
+    "started_at": { "bsonType": "timestamp", "title": "开始时间" },
+    "completed_at": { "bsonType": "timestamp", "title": "完成时间" },
+    "confirmed_at": { "bsonType": "timestamp", "title": "确认时间" },
+    "timeout_at": { "bsonType": "timestamp", "title": "超时时间" },
+    "created_at": { "bsonType": "timestamp", "forceDefaultValue": { "$env": "now" } }
+  }
+}

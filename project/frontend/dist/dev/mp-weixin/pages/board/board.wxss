@@ -1,0 +1,87 @@
+.scroll.data-v-83031968 {
+  padding-bottom: 90px;
+}
+.date-strip.data-v-83031968 {
+  padding: 6px;
+}
+.day.data-v-83031968 {
+  flex: 1;
+  text-align: center;
+  padding: 8px 0 6px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.day.on.data-v-83031968 {
+  background: #171210;
+  color: #ffffff;
+}
+.day .w.data-v-83031968 {
+  font-size: 10px;
+  opacity: 0.6;
+}
+.day .d.data-v-83031968 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+.day .dot.data-v-83031968 {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: transparent;
+  margin: 4px auto 0;
+}
+.day .dot.show.data-v-83031968 {
+  background: #ea580c;
+}
+.day.on .dot.show.data-v-83031968 {
+  background: #ffffff;
+}
+.chips-row.data-v-83031968 {
+  overflow-x: auto;
+}
+.time-col.data-v-83031968 {
+  width: 44px;
+  text-align: center;
+  flex: 0 0 auto;
+}
+.axis.data-v-83031968 {
+  width: 2px;
+  align-self: stretch;
+  background: #e7ded4;
+  border-radius: 2px;
+  flex: 0 0 auto;
+}
+.axis.mine.data-v-83031968 {
+  background: #ea580c;
+}
+.title.data-v-83031968 {
+  line-height: 22px;
+}
+.task-card.data-v-83031968 {
+  margin-bottom: 8px;
+  min-height: 84px;
+}
+.fab.data-v-83031968 {
+  position: absolute;
+  right: 16px;
+  bottom: 96px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #c2410c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 35;
+  box-shadow: 0 8px 20px rgba(194, 65, 12, 0.38);
+}
+.pop.data-v-83031968 {
+  padding: 16px 18px 26px;
+}
+.pop-title.data-v-83031968 {
+  font-size: 17px;
+  font-weight: 600;
+}

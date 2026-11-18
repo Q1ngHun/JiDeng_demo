@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "backgroundColor": "#FBF7F2",
+  "usingComponents": {
+    "jd-nav": "../../components/JdNav",
+    "jd-tabbar": "../../components/JdTabbar",
+    "jd-avatar": "../../components/JdAvatar"
+  }
+}

@@ -1,0 +1,118 @@
+.scroll.data-v-67381f1f {
+  padding-bottom: 24px;
+}
+.week-btn.data-v-67381f1f {
+  width: 30px;
+  padding: 0;
+  justify-content: center;
+}
+.table-card.data-v-67381f1f {
+  padding: 0;
+  overflow: hidden;
+}
+.table-head.data-v-67381f1f {
+  display: flex;
+  background: #f6efe6;
+  border-bottom: 1px solid #f2ebe2;
+}
+.member-col.data-v-67381f1f {
+  width: 76px;
+  flex: 0 0 auto;
+  padding: 8px 10px;
+}
+.head-cell.data-v-67381f1f {
+  font-size: 10px;
+  color: #7a6e63;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 0;
+}
+.day-cell.today.data-v-67381f1f {
+  color: #c2410c;
+}
+.day-cell.weekend.data-v-67381f1f {
+  opacity: 0.62;
+}
+.days-row.data-v-67381f1f {
+  flex: 1;
+  display: flex;
+}
+.days-row .head-cell.data-v-67381f1f {
+  flex: 1;
+}
+.table-row.data-v-67381f1f {
+  display: flex;
+  border-bottom: 1px solid #f2ebe2;
+  align-items: stretch;
+}
+.table-row.data-v-67381f1f:last-child {
+  border-bottom: 0;
+}
+.member-name.data-v-67381f1f {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+}
+.ml6.data-v-67381f1f {
+  margin-left: 6px;
+}
+.cells.data-v-67381f1f {
+  gap: 3px;
+  padding: 8px 4px;
+}
+.cell.data-v-67381f1f {
+  flex: 1;
+  height: 30px;
+  border-radius: 6px;
+  background: #f6efe6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.cell.weekend.data-v-67381f1f {
+  opacity: 0.72;
+}
+.cell.off.data-v-67381f1f {
+  background: #f6efe6;
+}
+.cell.owner.data-v-67381f1f {
+  background: #fff1e6;
+  border: 1px solid #fbd5b8;
+}
+.cell.sis.data-v-67381f1f {
+  background: #e8eef8;
+  border: 1px solid #c9d6ec;
+}
+.cell.dad.data-v-67381f1f {
+  background: #eaf5ee;
+  border: 1px solid #cde9db;
+}
+.cell.mom.data-v-67381f1f {
+  background: #f9edf3;
+  border: 1px solid #eed3e1;
+}
+.cell-label.data-v-67381f1f {
+  font-size: 8px;
+  line-height: 10px;
+  color: #574c42;
+  text-align: center;
+  padding: 0 1px;
+  transform: scale(0.92);
+}
+.legend.data-v-67381f1f {
+  flex-wrap: wrap;
+}
+.sq.data-v-67381f1f {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+.sq.owner.data-v-67381f1f { background: #c2410c;
+}
+.sq.sis.data-v-67381f1f { background: #5f7fa8;
+}
+.sq.dad.data-v-67381f1f { background: #5e8f62;
+}
+.sq.mom.data-v-67381f1f { background: #b4718f;
+}

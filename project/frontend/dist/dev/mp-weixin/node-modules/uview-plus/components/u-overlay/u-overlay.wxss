@@ -1,0 +1,9 @@
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+.u-overlay.data-v-35f7c3e5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}

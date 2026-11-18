@@ -1,0 +1,404 @@
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+/**
+ * vue版本动画内置的动画模式有如下：
+ * fade：淡入
+ * zoom：缩放
+ * fade-zoom：缩放淡入
+ * fade-up：上滑淡入
+ * fade-down：下滑淡入
+ * fade-left：左滑淡入
+ * fade-right：右滑淡入
+ * slide-up：上滑进入
+ * slide-down：下滑进入
+ * slide-left：左滑进入
+ * slide-right：右滑进入
+ */
+.u-fade-enter-active[data-v-0573594d],
+.u-fade-leave-active[data-v-0573594d] {
+  transition-property: opacity;
+}
+.u-fade-enter[data-v-0573594d],
+.u-fade-leave-to[data-v-0573594d] {
+  opacity: 0;
+}
+.u-fade-zoom-enter[data-v-0573594d],
+.u-fade-zoom-leave-to[data-v-0573594d] {
+  transform: scale(0.95);
+  opacity: 0;
+}
+.u-fade-zoom-enter-active[data-v-0573594d],
+.u-fade-zoom-leave-active[data-v-0573594d] {
+  transition-property: transform, opacity;
+}
+.u-fade-down-enter-active[data-v-0573594d],
+.u-fade-down-leave-active[data-v-0573594d],
+.u-fade-left-enter-active[data-v-0573594d],
+.u-fade-left-leave-active[data-v-0573594d],
+.u-fade-right-enter-active[data-v-0573594d],
+.u-fade-right-leave-active[data-v-0573594d],
+.u-fade-up-enter-active[data-v-0573594d],
+.u-fade-up-leave-active[data-v-0573594d] {
+  transition-property: opacity, transform;
+}
+.u-fade-up-enter[data-v-0573594d],
+.u-fade-up-leave-to[data-v-0573594d] {
+  transform: translate3d(0, 100%, 0);
+  opacity: 0;
+}
+.u-fade-down-enter[data-v-0573594d],
+.u-fade-down-leave-to[data-v-0573594d] {
+  transform: translate3d(0, -100%, 0);
+  opacity: 0;
+}
+.u-fade-left-enter[data-v-0573594d],
+.u-fade-left-leave-to[data-v-0573594d] {
+  transform: translate3d(-100%, 0, 0);
+  opacity: 0;
+}
+.u-fade-right-enter[data-v-0573594d],
+.u-fade-right-leave-to[data-v-0573594d] {
+  transform: translate3d(100%, 0, 0);
+  opacity: 0;
+}
+.u-slide-down-enter-active[data-v-0573594d],
+.u-slide-down-leave-active[data-v-0573594d],
+.u-slide-left-enter-active[data-v-0573594d],
+.u-slide-left-leave-active[data-v-0573594d],
+.u-slide-right-enter-active[data-v-0573594d],
+.u-slide-right-leave-active[data-v-0573594d],
+.u-slide-up-enter-active[data-v-0573594d],
+.u-slide-up-leave-active[data-v-0573594d] {
+  transition-property: transform;
+}
+.u-slide-up-enter[data-v-0573594d],
+.u-slide-up-leave-to[data-v-0573594d] {
+  transform: translate3d(0, 100%, 0);
+}
+.u-slide-down-enter[data-v-0573594d],
+.u-slide-down-leave-to[data-v-0573594d] {
+  transform: translate3d(0, -100%, 0);
+}
+.u-slide-left-enter[data-v-0573594d],
+.u-slide-left-leave-to[data-v-0573594d] {
+  transform: translate3d(-100%, 0, 0);
+}
+.u-slide-right-enter[data-v-0573594d],
+.u-slide-right-leave-to[data-v-0573594d] {
+  transform: translate3d(100%, 0, 0);
+}
+.u-zoom-enter-active[data-v-0573594d],
+.u-zoom-leave-active[data-v-0573594d] {
+  transition-property: transform;
+}
+.u-zoom-enter[data-v-0573594d],
+.u-zoom-leave-to[data-v-0573594d] {
+  transform: scale(0.95);
+}
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+.u-overlay[data-v-35f7c3e5] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+.u-status-bar[data-v-c0b45a48] {
+  width: 100%;
+}
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+@font-face {
+  font-family: "uicon-iconfont";
+  src: url("https://at.alicdn.com/t/font_2225171_8kdcwk4po24.ttf") format("truetype");
+}
+.u-icon[data-v-1c933a9a] {
+  display: flex;
+  align-items: center;
+}
+.u-icon--left[data-v-1c933a9a] {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.u-icon--right[data-v-1c933a9a] {
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon--top[data-v-1c933a9a] {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.u-icon--bottom[data-v-1c933a9a] {
+  flex-direction: column;
+  justify-content: center;
+}
+.u-icon__icon[data-v-1c933a9a] {
+  font-family: uicon-iconfont;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon__icon--primary[data-v-1c933a9a] {
+  color: var(--up-primary, var(--u-primary, #3c9cff));
+}
+.u-icon__icon--success[data-v-1c933a9a] {
+  color: var(--up-success, var(--u-success, #5ac725));
+}
+.u-icon__icon--error[data-v-1c933a9a] {
+  color: var(--up-error, var(--u-error, #f56c6c));
+}
+.u-icon__icon--warning[data-v-1c933a9a] {
+  color: var(--up-warning, var(--u-warning, #f9ae3d));
+}
+.u-icon__icon--info[data-v-1c933a9a] {
+  color: var(--up-info, var(--u-info, #909399));
+}
+.u-icon__img[data-v-1c933a9a] {
+  height: auto;
+  will-change: transform;
+}
+.u-icon__label[data-v-1c933a9a] {
+  line-height: 1;
+}
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+.u-safe-bottom[data-v-3ec581de] {
+  width: 100%;
+}
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+.u-popup[data-v-74921bef] {
+  flex: 1;
+}
+.u-popup__trigger[data-v-74921bef] {
+  position: relative;
+}
+.u-popup__trigger__cover[data-v-74921bef] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.u-popup__content[data-v-74921bef] {
+  position: relative;
+}
+.u-popup__content--round-top[data-v-74921bef] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.u-popup__content--round-left[data-v-74921bef] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+}
+.u-popup__content--round-right[data-v-74921bef] {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0;
+}
+.u-popup__content--round-bottom[data-v-74921bef] {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.u-popup__content--round-center[data-v-74921bef] {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.u-popup__content__touch-area[data-v-74921bef] {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.3125rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.u-popup__content__indicator[data-v-74921bef] {
+  width: 100px;
+  height: 5px;
+  border-radius: 100px;
+  background-color: var(--up-light-color, #c0c4cc);
+}
+.u-popup__content__close[data-v-74921bef] {
+  position: absolute;
+}
+.u-popup__content__close--hover[data-v-74921bef] {
+  opacity: 0.4;
+}
+.u-popup__content__close--top-left[data-v-74921bef] {
+  top: 15px;
+  left: 15px;
+}
+.u-popup__content__close--top-right[data-v-74921bef] {
+  top: 15px;
+  right: 15px;
+}
+.u-popup__content__close--bottom-left[data-v-74921bef] {
+  bottom: 15px;
+  left: 15px;
+}
+.u-popup__content__close--bottom-right[data-v-74921bef] {
+  right: 15px;
+  bottom: 15px;
+}
+
+.jd-icon[data-v-b531e468] {
+  display: block;
+  flex: 0 0 auto;
+}
+
+
+.jd-nav[data-v-1630e7dd] {
+  flex: 0 0 auto;
+  background: #ffffff;
+  position: relative;
+  z-index: 30;
+}
+.jd-nav.tint[data-v-1630e7dd] {
+  background: #fbf7f2;
+}
+.status-pad[data-v-1630e7dd] {
+  height: env(safe-area-inset-top);
+}
+.bar[data-v-1630e7dd] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 48px;
+  padding: 0 14px;
+  padding-top: 6px;
+}
+.nav-back[data-v-1630e7dd] {
+  width: 32px;
+  height: 32px;
+  margin-left: -6px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-back-hover[data-v-1630e7dd] {
+  background: #f6efe6;
+}
+.ttl[data-v-1630e7dd] {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #171210;
+}
+.act[data-v-1630e7dd] {
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #c2410c;
+  padding: 6px 4px;
+}
+
+
+.av[data-v-a6b2f3b3] {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(140deg, #f0a868, #d97742);
+}
+.av.owner[data-v-a6b2f3b3] { background: linear-gradient(140deg, #e8863f, #c2410c);
+}
+.av.sis[data-v-a6b2f3b3] { background: linear-gradient(140deg, #8fa6c9, #5f7fa8);
+}
+.av.dad[data-v-a6b2f3b3] { background: linear-gradient(140deg, #9dbf9e, #5e8f62);
+}
+.av.mom[data-v-a6b2f3b3] { background: linear-gradient(140deg, #d9a9c0, #b4718f);
+}
+.av.lg[data-v-a6b2f3b3] { width: 48px; height: 48px; font-size: 16px;
+}
+.av.sm[data-v-a6b2f3b3] { width: 28px; height: 28px; font-size: 11px;
+}
+.av.xs[data-v-a6b2f3b3] { width: 24px; height: 24px; font-size: 10px;
+}
+
+
+.scroll[data-v-e12457dc] {
+  padding-bottom: 24px;
+}
+.capture[data-v-e12457dc] {
+  padding: 0;
+  overflow: hidden;
+}
+.photo-area[data-v-e12457dc] {
+  height: 150px;
+  background: #f6efe6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.capture-inner[data-v-e12457dc] {
+  width: 200px;
+  height: 112px;
+  border: 2px dashed #cfc4b6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #7a6e63;
+}
+.capture-icon[data-v-e12457dc] {
+  font-size: 22px;
+}
+.capture-actions[data-v-e12457dc] {
+  padding: 12px 14px;
+  border-top: 1px solid #f2ebe2;
+}
+.mini[data-v-e12457dc] {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+}
+.indicator[data-v-e12457dc] {
+  height: auto;
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: normal;
+}
+.indicator.high[data-v-e12457dc],
+.indicator.low[data-v-e12457dc] {
+  background: #fdf1df;
+  border-color: #f0dcbc;
+  color: #8a5a1a;
+}
+.indicator.normal[data-v-e12457dc] {
+  background: #ffffff;
+  border-color: #e7ded4;
+  color: #574c42;
+}
+.pop[data-v-e12457dc] {
+  padding: 16px 18px 26px;
+}
+.pop-title[data-v-e12457dc] {
+  font-size: 17px;
+  font-weight: 600;
+}
+.input[data-v-e12457dc] {
+  font-size: 15px;
+  min-height: 24px;
+}
+[data-v-e12457dc] .ph {
+  color: #a99d91;
+}

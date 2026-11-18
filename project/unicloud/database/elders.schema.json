@@ -1,0 +1,30 @@
+{
+  "bsonType": "object",
+  "required": ["family_id", "name"],
+  "permission": {
+    "read": "doc.family_id in auth.family_ids && auth.elder_profile_scope == true",
+    "create": "auth.role in ['owner']",
+    "update": "auth.role in ['owner']",
+    "delete": false
+  },
+  "properties": {
+    "_id": { "description": "档案 ID" },
+    "family_id": { "bsonType": "string", "title": "家庭组", "foreignKey": "families._id" },
+    "user_id": { "bsonType": "string", "title": "长辈账号", "foreignKey": "users._id" },
+    "name": { "bsonType": "string", "title": "姓名" },
+    "relation": { "bsonType": "string", "title": "关系", "enum": ["爸爸", "妈妈", "爷爷", "奶奶", "外公", "外婆"] },
+    "gender": { "bsonType": "string", "title": "性别", "enum": ["男", "女"] },
+    "birthday": { "bsonType": "string", "title": "生日", "description": "YYYY-MM-DD" },
+    "height": { "bsonType": "string", "title": "身高" },
+    "weight": { "bsonType": "string", "title": "体重" },
+    "blood_type": { "bsonType": "string", "title": "血型" },
+    "conditions": { "bsonType": "string", "title": "既往史" },
+    "allergies": { "bsonType": "string", "title": "过敏史" },
+    "hospital": { "bsonType": "string", "title": "常去医院" },
+    "doctor": { "bsonType": "string", "title": "医生" },
+    "next_checkup_at": { "bsonType": "timestamp", "title": "下次复查" },
+    "completeness": { "bsonType": "int", "title": "完整度", "min": 0, "max": 100 },
+    "avatar_color": { "bsonType": "string", "title": "头像配色", "enum": ["dad", "mom", "owner", "sis"] },
+    "created_at": { "bsonType": "timestamp", "forceDefaultValue": { "$env": "now" } }
+  }
+}

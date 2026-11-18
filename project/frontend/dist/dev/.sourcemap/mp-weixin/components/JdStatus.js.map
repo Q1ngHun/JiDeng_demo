@@ -1,0 +1,1 @@
+{"version":3,"file":"JdStatus.js","sources":["../uniComponent:/RDovd29ya1pvbmUvQVBQL2Zyb250ZW5kL3NyYy9jb21wb25lbnRzL0pkU3RhdHVzLnZ1ZQ"],"sourcesContent":["import Component from 'D:/workZone/APP/frontend/src/components/JdStatus.vue'\nwx.createComponent(Component)"],"names":["Component"],"mappings":";;;;;;;;;;;;;;;;;AACA,GAAG,gBAAgBA,SAAS;"}

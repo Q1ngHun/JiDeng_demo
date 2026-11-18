@@ -1,0 +1,58 @@
+.scroll.data-v-3d357165 {
+  padding-bottom: 24px;
+}
+.pdf-thumb.data-v-3d357165 {
+  width: 104px;
+  height: 142px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pdf-inner.data-v-3d357165 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #6b6156;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pdf-line.data-v-3d357165 {
+  width: 52px;
+  height: 1px;
+  background: #c9beb2;
+  margin: 8px auto;
+}
+.li .lb.data-v-3d357165 {
+  font-size: 15px;
+}
+.ml-auto.data-v-3d357165 {
+  margin-left: auto;
+}
+.ml6.data-v-3d357165 {
+  margin-left: 6px;
+}
+.quota-card.data-v-3d357165 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.result.data-v-3d357165 {
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ok-icon.data-v-3d357165 {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #e6f5ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result .btn.data-v-3d357165 {
+  width: 100%;
+}

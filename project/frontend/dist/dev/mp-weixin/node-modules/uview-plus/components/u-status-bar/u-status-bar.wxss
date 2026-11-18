@@ -1,0 +1,4 @@
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+.u-status-bar.data-v-c0b45a48 {
+  width: 100%;
+}

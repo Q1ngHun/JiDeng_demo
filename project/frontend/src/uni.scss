@@ -1,0 +1,39 @@
+/* 家灯设计系统 · SCSS 变量（与 jiadeng-design/app/ds.css 保持一致） */
+@import 'uview-plus/theme.scss';
+
+$ink: #171210;
+$ink2: #574C42;
+$ink3: #7A6E63;
+$ink4: #A99D91;
+
+$line: #E7DED4;
+$line2: #F2EBE2;
+
+$surface: #FFFFFF;
+$canvas: #FBF7F2;
+$sunken: #F6EFE6;
+
+$brand: #C2410C;
+$brand2: #EA580C;
+$brand-weak: #FFF1E6;
+$brand-line: #FBD5B8;
+
+$ok: #0F7B4F;
+$ok-weak: #E6F5ED;
+$warn: #B45309;
+$warn-weak: #FDF1DF;
+$bad: #B42318;
+$bad-weak: #FDECE9;
+$info: #1D4ED8;
+$info-weak: #EAF0FE;
+$violet: #7C3AED;
+$violet-weak: #F2ECFE;
+
+$r4: 6px;
+$r8: 10px;
+$r12: 14px;
+$r16: 18px;
+$r24: 24px;
+$pill: 999px;
+
+$font-num: 'SF Mono', ui-monospace, 'DIN Alternate', monospace;

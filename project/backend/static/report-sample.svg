@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#F6EFE6"/><stop offset="1" stop-color="#E7DED4"/></linearGradient></defs>
+<rect width="480" height="480" fill="url(#g)"/>
+<rect x="60" y="70" width="360" height="340" rx="18" fill="#ffffff" opacity="0.82"/>
+<rect x="92" y="112" width="200" height="14" rx="7" fill="#C9BEB2"/>
+<rect x="92" y="142" width="296" height="8" rx="4" fill="#DCD2C6"/>
+<rect x="92" y="162" width="240" height="8" rx="4" fill="#DCD2C6"/>
+<rect x="92" y="200" width="296" height="1" fill="#E7DED4"/>
+<text x="240" y="270" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#574C42" text-anchor="middle">化验报告单</text>
+<text x="240" y="312" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="22" fill="#7A6E63" text-anchor="middle">检验科</text>
+<rect x="92" y="350" width="160" height="8" rx="4" fill="#DCD2C6"/>
+<rect x="92" y="372" width="220" height="8" rx="4" fill="#E7DED4"/>
+</svg>

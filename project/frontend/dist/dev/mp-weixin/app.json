@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/launch/launch",
+    "pages/home/home",
+    "pages/board/board",
+    "pages/schedule/schedule",
+    "pages/create/create",
+    "pages/detail/detail",
+    "pages/timeline/timeline",
+    "pages/export/export",
+    "pages/profile/profile",
+    "pages/meds/meds",
+    "pages/report/report",
+    "pages/widget/widget",
+    "pages/settings/settings",
+    "pages/vip/vip",
+    "pages/elder/elder"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#FBF7F2",
+    "backgroundColorTop": "#FBF7F2",
+    "backgroundColorBottom": "#FBF7F2",
+    "navigationBarTitleText": "家灯",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {}
+}

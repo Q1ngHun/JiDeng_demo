@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "backgroundColor": "#FBF7F2",
+  "usingComponents": {
+    "u-popup": "../../node-modules/uview-plus/components/u-popup/u-popup",
+    "jd-nav": "../../components/JdNav",
+    "jd-status": "../../components/JdStatus",
+    "jd-avatar": "../../components/JdAvatar",
+    "jd-icon": "../../components/JdIcon"
+  }
+}

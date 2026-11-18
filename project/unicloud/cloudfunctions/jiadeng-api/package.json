@@ -1,0 +1,11 @@
+{
+  "name": "jiadeng-api",
+  "version": "0.1.0",
+  "description": "家灯 JiaDeng 统一入口云函数：转发到 Python 后端",
+  "main": "index.js",
+  "cloudfunction-config": {
+    "memorySize": 256,
+    "timeout": 20,
+    "triggers": []
+  }
+}

@@ -1,0 +1,89 @@
+.scroll.data-v-0cd09a48 {
+  padding-bottom: 24px;
+}
+.loading.data-v-0cd09a48 {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rate-row.data-v-0cd09a48 {
+  align-items: baseline;
+}
+.ml4.data-v-0cd09a48 {
+  margin-left: 4px;
+}
+.chart.data-v-0cd09a48 {
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  padding: 8px 10px;
+}
+.chart-col.data-v-0cd09a48 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.chart-bar.data-v-0cd09a48 {
+  width: 100%;
+  max-width: 16px;
+  border-radius: 3px;
+  background: #f5c9a6;
+  transition: height 0.4s ease;
+}
+.chart-bar.today.data-v-0cd09a48 {
+  background: #ea580c;
+}
+.chart-labels.data-v-0cd09a48 {
+  font-size: 10px;
+}
+.chart-labels text.data-v-0cd09a48 {
+  flex: 1;
+  text-align: center;
+}
+.task-card.data-v-0cd09a48 {
+  margin-top: 8px;
+}
+.task-card.data-v-0cd09a48:first-of-type {
+  margin-top: 0;
+}
+.task-title.data-v-0cd09a48 {
+  line-height: 22px;
+}
+.quick.data-v-0cd09a48 {
+  display: flex;
+}
+.quick-btn.data-v-0cd09a48 {
+  height: 64px;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 11px;
+  flex: 1;
+  min-height: 64px;
+  padding: 0;
+}
+.empty-card.data-v-0cd09a48 {
+  text-align: center;
+  padding: 22px;
+}
+.elder-entry.data-v-0cd09a48 {
+  padding: 14px;
+}
+.elder-icon.data-v-0cd09a48 {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #fff1e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elder-entry .chev.data-v-0cd09a48 {
+  color: #a99d91;
+  font-size: 16px;
+}

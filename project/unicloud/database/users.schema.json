@@ -1,0 +1,32 @@
+{
+  "bsonType": "object",
+  "required": ["username", "password"],
+  "permission": {
+    "read": "doc._id == auth.uid || 'admin' in auth.role",
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": { "description": "用户 ID" },
+    "username": { "bsonType": "string", "title": "手机号", "description": "登录名，唯一", "trim": "both" },
+    "password": { "bsonType": "string", "title": "密码", "description": "uni-id 会做加盐散列，禁止明文查询", "forceDefaultValue": { "$env": "now" } },
+    "nickname": { "bsonType": "string", "title": "昵称" },
+    "real_name": { "bsonType": "string", "title": "真实姓名" },
+    "avatar_text": { "bsonType": "string", "title": "头像字", "maxLength": 2 },
+    "avatar_color": { "bsonType": "string", "title": "头像配色", "enum": ["owner", "sis", "dad", "mom"] },
+    "role": { "bsonType": "string", "title": "角色", "enum": ["owner", "member", "elder"], "defaultValue": "member" },
+    "phone": { "bsonType": "string", "title": "手机号" },
+    "wx_openid": {
+      "bsonType": "object",
+      "title": "微信 openid",
+      "properties": {
+        "mp": { "bsonType": "string" },
+        "app": { "bsonType": "string" }
+      }
+    },
+    "push_clientid": { "bsonType": "string", "title": "uni-push clientid" },
+    "is_demo": { "bsonType": "bool", "title": "演示账号" },
+    "created_at": { "bsonType": "timestamp", "title": "创建时间", "forceDefaultValue": { "$env": "now" } }
+  }
+}
